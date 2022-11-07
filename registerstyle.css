@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(199, 188, 188) ;
+    align-content: center;
+    
+}
+
+#header{
+    background-color: rgb(194, 177, 177);
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 10%;
+    box-shadow: 0 15px 30px rgb(136, 129, 129);
+}
+
+.inputs{
+    border-color: transparent;
+    text-align: center;
+    text-decoration-style: inherit;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 75%;
+}
+
+.btn{
+    border: 1px smooth blue  transparent;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20%;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    border-radius: 20%;
+}
